@@ -2,7 +2,7 @@
 
 # CSS Graffiti Override
 
-In this challenge you are asked to clean the graffiti tags off the wall by making use of in browser developer tools and writing selectors that are more specific (have greater authority) in order to override the existing styles.
+In this challenge you are asked to clean the graffiti tags off the wall by making use of browser developer tools and writing selectors that are more specific (have greater authority) in order to override the existing styles.
 
 ## Steps
 
