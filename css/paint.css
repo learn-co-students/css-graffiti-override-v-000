@@ -16,7 +16,7 @@ body {
   border-bottom: 60px solid white;
 }
 
-.tag-1, .tag-2, .tag-3, .tag-4, #tag-5, #tag-6, #tag-7 {
+.tag-1, .tag-2, .tag-3, .tag-4, .tag-5, .tag-6, .tag-7 {
   position: absolute;
   top: 0;
   left: 0;
