@@ -1,1 +1,6 @@
 /* write your override styles here */
+
+#wall .tag-1, #wall div, body #wall #tag-2, body div#wall #tag-3.slick.wicked{
+	display: none;
+}
+
