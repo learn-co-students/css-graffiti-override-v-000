@@ -1,1 +1,13 @@
-/* write your override styles here */
+ #wall #tag-2 ~ #tag-3.slick{
+  display:none;
+}
+.parent{
+  display:none
+}
+#wall .tag-1{
+  display: none;
+}
+
+div#wall #tag-2 {
+    display: none;
+}
