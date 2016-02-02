@@ -1,30 +1,29 @@
 /* write your override styles here */
 
-/* works */
 #wall .tag-1 {
   display: none;
 }
 
-/* works */
 div#wall #tag-2 {
   display: none;
 }
 
-/* works */
 #wall #tag-3.slick.wicked {
   display: none;
 }
 
-/* works */
 #wall .parent #tag-4 { 
   display: none;
 }
 
-/* works */
 div#wall div.parent #tag-5.slick {
   display: none;
 }
 
-div:first-child div#wall div.parent div:last-child div#tag-6 {
+div#wall div.parent div + div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
   display: none;
 }
