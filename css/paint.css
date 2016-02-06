@@ -42,7 +42,7 @@ div#wall #tag-3.slick {
   display: block;
 }
 
-#wall #tag-4 {
+#wall #tag-4.slick {
   background: url(../images/tag-4.png) no-repeat;
   z-index: 4;
   display: block;
@@ -54,7 +54,7 @@ div#wall .parent #tag-5.slick {
   display: block;
 }
 
-div#wall div.parent div:last-child div#tag-6 {
+div#wall div.parent div:last-child div > div#tag-6 {
   background: url(../images/tag-6.png) no-repeat;
   z-index: 2;
   display: block;
