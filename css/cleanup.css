@@ -4,26 +4,26 @@
   display: none;
 }
 
-body #wall #tag-2 {
+#wall div#tag-2 {
   display: none;
 }
 
-body div#wall #tag-3.slick {
+div#wall #tag-3.slick.wicked {
   display:none;
 }
 
-body #wall #tag-4 {
+#wall div#tag-4 {
   display: none;
 }
 
-body #wall div.parent #tag-5.slick {
+div#wall div.parent #tag-5.slick {
   display: none;
 }
 
-body div#wall div.parent + div {
-  display:none;
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
 }
 
-body #wall div.parent div #tag-7.slick {
-  display:none;
+body div#wall div.parent div:first-child > div#tag-7.slick {
+  display: none;
 }
