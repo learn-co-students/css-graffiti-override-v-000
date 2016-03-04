@@ -1,1 +1,38 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#wall .tag-1 + #tag-2 {
+  display: none;
+}
+
+/*  both of the following selections worked for
+  tag- 3 specificity override */
+
+/*
+div#wall #tag-2 + #tag-3.slick {
+  display: none;
+}
+*/
+
+body div#wall #tag-3.slick {
+  display: none;
+}
+/* end tag-3 selection specificity override */
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+body div#wall .parent #tag-5.slick {
+  display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div:first-child > #tag-7.slick {
+  display: none;
+}
