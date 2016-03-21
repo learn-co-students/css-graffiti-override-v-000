@@ -38,6 +38,26 @@ body #wall div.parent #tag-5.slick {
   display: none;
 }
 
-body #wall div.parent #tag-6 {
+body div#wall div.parent div:last-child div#tag-6 {
   display:none;
 }
+
+/* OVERRIDE STYLES
+  <div id="wall">
+    <div id="tag-3" class="slick wicked"></div>
+    <div class="parent">
+      <div id="tag-4"></div>
+    </div>
+    <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+      <div></div>
+      <div>
+        <div id="tag-6"></div>
+      </div>
+    </div>
+    <div class="parent">
+      <div>
+        <div id="tag-7" class="slick"></div>
+      </div> */
