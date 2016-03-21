@@ -34,12 +34,16 @@ body #wall .parent #tag-4 {
   display:none;
 }
 
-body #wall div.parent #tag-5.slick {
+body #wall div.parent div#tag-5.slick {
   display: none;
 }
 
 body div#wall div.parent div:last-child div#tag-6 {
   display:none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+  display: none;
 }
 
 /* OVERRIDE STYLES
