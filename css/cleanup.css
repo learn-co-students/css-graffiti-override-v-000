@@ -1,1 +1,10 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;  
+}
+div#wall #tag-2, div#wall #tag-2 + #tag-3 {
+  display: none;
+}
+div.parent{
+  display: none;
+}
