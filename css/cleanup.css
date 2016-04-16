@@ -1,1 +1,33 @@
-/* write your override styles here */
+#wall .tag-1 {
+  display:none;
+}
+
+#wall #tag-2[id="tag-2"] {
+  display:none;
+}
+
+#wall #tag-3.slick.wicked {
+  display:none;
+}
+
+/*This cleans up the rest of the graffiti, but is too easy */
+
+/*.parent {
+  display:none;
+}*/
+
+#wall .parent #tag-4 {
+  display:none;
+}
+
+div#wall .parent div#tag-5.slick {
+  display:none;
+}
+
+div#wall div.parent div + div:last-child div#tag-6 {
+  display:none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+  display:none;
+}
