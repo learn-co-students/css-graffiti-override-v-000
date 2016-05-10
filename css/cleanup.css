@@ -1,1 +1,8 @@
 /* write your override styles here */
+
+#wall .tag-1,
+body #wall #tag-2,
+body div#wall #tag-3.wicked,
+.parent {
+	display: none;
+}
