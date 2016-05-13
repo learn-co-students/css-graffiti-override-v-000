@@ -1,1 +1,19 @@
 /* write your override styles here */
+/* write your override styles here */
+
+/*remove tag-1 img in background*/
+#wall .tag-1{
+  display: none;
+}
+/*remove all images in parent classes from background*/
+.tag-1~.parent{
+  display: none;
+}
+/*select and hide sibling that is directly after #tag-2*/
+#wall > #tag-2 + #tag-3{
+  display:none;
+}
+/*select and hide sibling that is directly after .tag-1*/
+#wall > .tag-1 + #tag-2{
+  display: none;
+}
