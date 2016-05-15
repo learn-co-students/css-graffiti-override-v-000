@@ -3,10 +3,21 @@
   display: none;
 }
 
-#wall div #tag-2 {
+body #wall #tag-2 {
+  display: none;
+}
+
+body #wall #tag-3.slick {
   display: none;
 }
 
 #wall div #tag-4 {
+  display: none;
+}
+
+body div#wall .parent #tag-5.slick {
+  display: none;
+}
+body div#wall div.parent div:last-child div#tag-6 {
   display: none;
 }
