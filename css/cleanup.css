@@ -1,1 +1,40 @@
 /* write your override styles here */
+
+/* cleanup.css specificity calculation v. paint.css calculation */ 
+
+/* 110 v. 010 */
+#wall .tag-1 {
+  display: none;
+}
+
+/* 201 v. 200 */
+div#wall #tag-2 {
+  display: none;
+}
+
+/* 212 v. 211 */
+body div#wall #tag-3.slick {
+  display: none;
+}
+
+/* 210 v. 200 */
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/* 222 v. 221 */
+body div#wall .parent #tag-5.slick {
+  display: none;
+}
+
+/* 216 v. 215 */
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+/* 226 v. 225 */
+html body div#wall div.parent div > #tag-7.slick {
+  display: none;
+}
+
+
