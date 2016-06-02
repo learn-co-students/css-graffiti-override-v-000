@@ -1,0 +1,24 @@
+#wall .tag-1 {
+	display:none;
+}
+
+#wall .parent {
+	display:none;
+}
+
+#wall #tag-2 {
+	display:none;
+}
+
+.tag-1 ~ #tag-2 {
+	display:none;
+}
+
+div#wall > div#tag-2 {
+	display:none;
+}
+
+div#tag-2 + div#tag-3.slick {
+	display:none;
+}
+
