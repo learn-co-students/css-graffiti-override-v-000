@@ -44,4 +44,3 @@ Work your way through all seven graffiti pictures until the wall is fully clean.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/css-graffiti-override' title='CSS Graffiti Override'>CSS Graffiti Override</a> on Learn.co and start learning to code for free.</p>
 
-<p class='util--hide'>View <a href='https://learn.co/lessons/css-graffiti-override'>CSS Graffiti Override</a> on Learn.co and start learning to code for free.</p>
