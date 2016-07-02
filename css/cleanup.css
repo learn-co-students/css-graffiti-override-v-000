@@ -19,10 +19,10 @@ div#wall > div.parent #tag-5.slick{ /*success*/
   display: none;
 }
 
-body div#wall div.parent div:last-child div#tag-6{
+body div#wall div.parent div:last-child div#tag-6{ /*success*/
   display: none;
 }
 
-body div#wall div.parent div:first-child div#tag-7.slick{
+body div#wall div.parent div:first-child div#tag-7.slick /*success*/
   display: none;
 }
