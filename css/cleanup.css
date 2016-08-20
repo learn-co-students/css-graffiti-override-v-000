@@ -1,1 +1,56 @@
 /* write your override styles here */
+
+/* tag-1
+<div id="wall">
+  <div class="tag-1"></div> */
+
+#wall .tag-1 {
+  display: none;
+}
+
+/* tag-2
+<div id="wall">
+<div id="tag-2"></div> */
+
+#wall + .tag-1 + #tag-2 { display: none; }
+
+/* tag-3
+<div id="wall">
+<div id="tag-3" class="slick wicked"></div>  */
+
+#wall .tag-3 + class $="wicked" {  /* class $="wicked" */
+  display: none;
+}
+
+/* tag-4
+<div id="wall">
+<div class="parent">
+  <div id="tag-4"></div> */
+
+class parent+img {
+  display: none;
+}
+
+/* tag-5
+<div id="wall">
+<div class="parent">
+  <div id="tag-5" class="slick"></div> */
+
+# {
+  display: none;
+}
+
+/* tag-6
+<div class="parent">
+  <div></div>
+  <div>
+    <div id="tag-6"></div> */
+
+# {
+      display: none;
+}
+
+/* tag-7
+<div class="parent">
+  <div>
+    <div id="tag-7" class="slick"></div> */
