@@ -12,7 +12,7 @@
 <div id="wall">
 <div id="tag-2"></div> */
 
-div #wall #tag-2  {
+ #wall div#tag-2  {
   display: none;
 }
 
