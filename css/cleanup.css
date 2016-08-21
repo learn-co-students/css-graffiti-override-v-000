@@ -12,13 +12,15 @@
 <div id="wall">
 <div id="tag-2"></div> */
 
-#wall + .tag-1 + #tag-2 { display: none; }
+#tag-2 {
+  display: none;
+}
 
 /* tag-3
 <div id="wall">
 <div id="tag-3" class="slick wicked"></div>  */
 
-#wall .tag-3 + class $="wicked" {  /* class $="wicked" */
+.slick_wicked {  /* class $="wicked" */
   display: none;
 }
 
@@ -27,7 +29,7 @@
 <div class="parent">
   <div id="tag-4"></div> */
 
-class parent+img {
+# tag-4 {
   display: none;
 }
 
@@ -36,7 +38,7 @@ class parent+img {
 <div class="parent">
   <div id="tag-5" class="slick"></div> */
 
-# {
+# tag-5 + class = slick {
   display: none;
 }
 
@@ -46,7 +48,7 @@ class parent+img {
   <div>
     <div id="tag-6"></div> */
 
-# {
+# tag-6 {
       display: none;
 }
 
@@ -54,3 +56,7 @@ class parent+img {
 <div class="parent">
   <div>
     <div id="tag-7" class="slick"></div> */
+
+# tag-7 + class = slick {
+          display: none;
+    }
