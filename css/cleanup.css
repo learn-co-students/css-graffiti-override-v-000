@@ -20,7 +20,7 @@
 <div id="wall">
 <div id="tag-3" class="slick wicked"></div>  */
 
-body div #wall #tag-3 .slick  {  /* class slick wicked is two classes one embeded in the other */
+div#wall div#tag-3.slick   {  /* class slick wicked is two classes one embeded in the other */
   display: none;
 }
 
@@ -29,7 +29,7 @@ body div #wall #tag-3 .slick  {  /* class slick wicked is two classes one embede
 <div class="parent">
   <div id="tag-4"></div> */
 
-div #wall #tag-4  {
+#wall div #tag-4  {
   display: none;
 }
 
@@ -38,7 +38,7 @@ div #wall #tag-4  {
 <div class="parent">
   <div id="tag-5" class="slick"></div> */
 
-body div #wall .parent #tag-5 .slick  {
+div#wall .parent div#tag-5.slick  {
   display: none;
 }
 
