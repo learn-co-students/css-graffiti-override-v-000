@@ -12,7 +12,7 @@
 <div id="wall">
 <div id="tag-2"></div> */
 
-body #wall #tag-2  {
+div #wall #tag-2  {
   display: none;
 }
 
@@ -57,6 +57,6 @@ body div #wall div .parent div :last-child div #tag-6  {
   <div>
     <div id="tag-7" class="slick"></div> */
 
-html body div #wall div .parent div > #tag-7 .slick  {
+head body div #wall div .parent div > #tag-7 .slick  {
           display: none;
     }
