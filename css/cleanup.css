@@ -57,6 +57,6 @@ body div #wall div .parent div :last-child div #tag-6  {
   <div>
     <div id="tag-7" class="slick"></div> */
 
-head body div #wall div .parent div > #tag-7 .slick  {
+html body div #wall div .parent div > #tag-7 .slick  {
           display: none;
     }
