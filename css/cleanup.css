@@ -20,7 +20,7 @@
 <div id="wall">
 <div id="tag-3" class="slick wicked"></div>  */
 
-.slick_wicked {  /* class $="wicked" */
+.slick + .wicked {  /* class slick wicked is two classes one embeded in the other */
   display: none;
 }
 
@@ -29,7 +29,7 @@
 <div class="parent">
   <div id="tag-4"></div> */
 
-# tag-4 {
+.paremt + # tag-4 {
   display: none;
 }
 
