@@ -3,6 +3,16 @@
 {
  display:none;
 }
-
-#wall .parent
+#wall #tag-2
  {display:none;}
+#wall #tag-3.slick.wicked
+{display:none;}/*will remove tag-3*/
+#wall .parent #tag-4{
+  display:none;
+}
+#wall .parent #tag-5.slick
+{display:none;}
+#wall .parent.div #tag-6
+{
+  display:none;
+}
