@@ -1,1 +1,29 @@
 /* write your override styles here */
+
+body #wall div.tag-1 {
+  background: none;
+}
+
+body #wall div#tag-2 {
+  background: none;
+}
+
+body div#wall div#tag-3.slick {
+  background: none;
+}
+
+#wall div#tag-4 {
+  background: none;
+}
+
+div#wall .parent div#tag-5.slick {
+  background: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  background: none;
+}
+
+head body div#wall div.parent div > #tag-7.slick {
+  background: none;
+}
