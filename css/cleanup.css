@@ -1,5 +1,4 @@
 /* write your override styles here */
-
 #wall .tag-1{   /* this works */
   display: none;
 }
@@ -8,7 +7,7 @@ div#wall #tag-2{ /*removes 2*/
   display: none;
 }
 
-div#wall #tag-3.slick.wicked{ /* kills three, finally. spaces matter apparently..*/
+div#wall #tag-3.slick.wicked{ /* kills three, finally. Spaces matter apparently..*/
   display: none;
 }
 
