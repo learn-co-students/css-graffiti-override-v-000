@@ -1,1 +1,17 @@
 /* write your override styles here */
+
+#wall .tag-1{   /* this works */
+  display: none;
+}
+
+div#wall #tag-2{ /*removes 2*/
+  display: none;
+}
+
+div#wall #tag-3.slick.wicked{ /* kills three, finally. spaces matter apparently..*/
+  display: none;
+}
+
+div#wall .parent {  /*nukes 4, 5 and 6*/
+  display: none;
+}
