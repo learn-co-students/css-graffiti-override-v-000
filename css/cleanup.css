@@ -1,1 +1,36 @@
 /* write your override styles here */
+
+/* works; competing code: .tag-1 */
+div.tag-1 {
+  display:none;
+}
+
+/* works; competing code: #wall #tag-2 */
+div#wall div#tag-2 {
+  display:none;
+}
+
+/* works; competing code: */
+body div#wall #tag-3.slick {
+  display:none;
+}
+
+/* works; competing code: div#wall #tag-3.slick */
+body div#wall div.parent > #tag-4 {
+  display:none;
+}
+
+/* works; competing code: div#wall .parent #tag-5.slick */
+div#wall div.parent > #tag-5.slick {
+  display:none;
+}
+
+/* works; competing code: div #wall div.parent div:last-child div#tag-6 */
+body div#wall div.parent div:last-child div#tag-6 {
+  display:none;
+}
+
+/* works; competing code: body div#wall div.parent div > #tag-7.slick */
+body div#wall div.parent div > div#tag-7.slick {
+  display:none;
+}
