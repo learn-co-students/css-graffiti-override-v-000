@@ -1,1 +1,16 @@
-/* write your override styles here */
+/* HAVICK WAS HERE */
+
+#wall .tag-1 {
+  display:none;
+}
+
+div#wall #tag-3.slick{
+  background:none;
+}
+
+div .parent{
+  display:none;
+}
+div .tag-1 #tag-2{
+  display:none;
+}
