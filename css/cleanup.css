@@ -1,1 +1,11 @@
 /* write your override styles here */
+body div#wall div.parent div div#tag-7.slick,
+body div#wall div.parent div:last-of-type div#tag-6,
+div#wall div.parent div#tag-5.slick,
+div#wall div.parent div#tag-4,
+div#wall div#tag-3.slick,
+div#wall #tag-2,
+#wall .tag-1
+{
+  display:none;
+}
