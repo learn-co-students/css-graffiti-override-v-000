@@ -35,7 +35,7 @@ body div#wall div.parent div:last-child div#tag-6{
 	display:none;
 }
 
-/* removing tag 7 */
+/* removing tag 7 SUCCESSFUL*/
 html body div#wall div.parent div > #tag-7.slick{
 	display:none;
 }
