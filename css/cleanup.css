@@ -1,1 +1,41 @@
 /* write your override styles here */
+
+/* removing tag 1 SUCCESSFUL*/
+
+#wall .tag-1{
+	display:none;
+}
+
+/* removing tag 2 SUCCESSFUL*/
+
+div#wall #tag-2{
+	display:none;
+}
+
+/* removing tag 3 SUCCESSFUL*/
+div#wall #tag-3.slick.wicked{
+	display:none;
+}
+
+
+/* removing tag 4 SUCCESSFUL*/
+
+#wall .parent #tag-4{
+	display:none;
+}
+
+/* removing tag 5 SUCCESSFUL*/
+div#wall div.parent #tag-5.slick{
+	display:none;
+}
+
+/* removing tag 6 SUCCESSFUL*/
+
+body div#wall div.parent div:last-child div#tag-6{
+	display:none;
+}
+
+/* removing tag 7 */
+html body div#wall div.parent div > #tag-7.slick{
+	display:none;
+}
