@@ -22,6 +22,7 @@ body {
   left: 0;
   width: 980px;
   height: 622px;
+  display: block;
 }
 
 .tag-1 {
