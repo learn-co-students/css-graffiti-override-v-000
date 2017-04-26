@@ -2,11 +2,11 @@
   display: none;
 }
 
-#wall #tag-2 {
+div#wall div#tag-2 {
   display: none;
 }
 
-#wall #tag-3 .wicked .slick{
+#wall #tag-3.wicked.slick {
   display: none;
 }
 
@@ -14,6 +14,14 @@
   display: none;
 }
 
-#wall .parent .slick {
+div#wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+body div#walldiv.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
   display: none;
 }
