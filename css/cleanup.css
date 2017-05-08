@@ -1,19 +1,17 @@
 /* write your override styles here */
 
-#wall .tag-1 {
-  diplay: none;
-}
 
+#wall .tag-1 {
+  display: none;
+}
 
 body #wall #tag-2 {
   display: none;
 }
 
-
-body div#wall #tag-3[class= "slick-wicked"] {
+body div#wall #tag-3[class="slick wicked"] {
   display: none;
 }
-
 
 #wall .parent #tag-4 {
   display: none;
@@ -22,7 +20,6 @@ body div#wall #tag-3[class= "slick-wicked"] {
 body div#wall div.parent #tag-5.slick {
   display: none;
 }
-
 
 body div#wall div.parent div:last-child div#tag-6 {
   display: none;
