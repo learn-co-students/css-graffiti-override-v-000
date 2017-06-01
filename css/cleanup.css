@@ -28,4 +28,4 @@ body div#wall div.parent div:first-child > #tag-7.slick {
   display: none;
 }
 
-/* It might be because it makes the selector more specific. The more specific a selector it is the higher priority it is. */
+/* The more specific a selector it is the higher priority it is. */
