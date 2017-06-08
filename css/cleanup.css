@@ -8,7 +8,7 @@ div#wall div#tag-2 {
   display: none;
 }
 
-div#wall div#tag-3 div[class$="wicked"]{
+div#wall #tag-3.slick.wicked {
   display: none;
 }/*NO*/
 
@@ -16,14 +16,14 @@ div#wall div#tag-3 div[class$="wicked"]{
 display: none;
 }
 
-body div#wall div.parent div:first-child div.slick #tag-5 {
+div#wall div.parent #tag-5.slick {
 display: none;
 }/* NO*/
 
-body div#wall div.parent div:last-child div:first-child div#tag-6 {
+body div#wall div.parent div:last-child div#tag-6 {
 display: none;
 }
 
-body div#wall div.parent div:first-child #tag-7 .slick {
+body div#wall div.parent div:first-child > div#tag-7.slick {
 display: none;
 }
