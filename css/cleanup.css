@@ -1,1 +1,4 @@
 /* write your override styles here */
+div[id^="tag"], div[class^="tag"]{
+  display:none!important;
+}
