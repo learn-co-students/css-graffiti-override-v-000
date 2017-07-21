@@ -11,7 +11,7 @@ In this lab, you are asked to clean the graffiti tags off the wall by making use
 3. cd into the local clone you just created.
 4. Open index.html in your browser (Chrome suggested).
 5. Open the [dev tools](http://discover-devtools.codeschool.com/) `Cmd+Option+i` and inspect elements of the graffiti wall making a note of the CSS styles used to add graffiti tags (as background images) to the wall.
-6. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declaration `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti. 
+6. In the file css/cleanup.css write selectors that have more specificity (authority) than those that are showing the graffiti tags. Use the CSS declaration `display:none;` changing the elements previously from display: block to display:none, which will hide that graffiti.
 7. (HINT: If you'd like to take a look at your handiwork, you can preview this in your browser by right-clicking the file in the file tree, and selecting "Open in Browser" .)
 
 For example for "tag-1" the developer tools reveal that the style applying the graffiti here is:
@@ -35,7 +35,7 @@ We need to override this and set its display to `display: none;` instead. We can
 This selects elements with a class of "tag-1" that happen to also be inside an element with an id of "wall". This is more specific and therefore will override the previous statement and hide the graffiti. For more info on how specificity in CSS works take a look at: [Smashing Magazines What you Need to Know About CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/).
 
 Work your way through all seven graffiti pictures until the wall is fully clean. Do not use the CSS `!important` value as it is considered a bad practice! Also avoid adding inline or embedded CSS to the index.html file, or by adding any additional class or id attributes to the index.html file either! This will make it more challenging as you will have to write CSS that is more specific based on the existing markup.
-
+hmm
 ## Resources
 
  * [Smashing Magazine - CSS Specificity](http://www.smashingmagazine.com/2007/07/27/css-specificity-things-you-should-know/)
