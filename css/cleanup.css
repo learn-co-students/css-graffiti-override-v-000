@@ -1,1 +1,5 @@
 /* write your override styles here */
+
+div[id*= "wall"] {
+  display: none;
+}
