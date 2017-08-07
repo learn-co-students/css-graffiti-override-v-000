@@ -1,1 +1,19 @@
-/* write your override styles here */
+#wall div[id*="tag"], #wall div[class*="tag"]{
+  display:none;
+}
+
+.tag-1 + #tag-2 {
+  display:none;
+}
+
+#wall div {
+  display:none;
+  }/* write your override styles here */
+
+div#wall #tag-2 {
+  display:none;
+}
+
+div#wall #tag-2 + #tag-3.slick {
+  display:none;
+}
