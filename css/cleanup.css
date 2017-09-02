@@ -19,22 +19,11 @@ div#wall div.parent div#tag-5.slick {
   display: none;
 }
 
-div#wall div.parent:nth-child(2) div#tag-6 {
+/*div#wall div.parent div:last-child div#tag-6*/
+body div#wall div.parent div:nth-child(2) div#tag-6 {
   display: none;
 }
 
 body div#wall div.parent div > div#tag-7.slick {
   display: none;
 }
-/*
-.parent #tag-5{
-  display: none;
-}
-
-.parent #tag-6{
-  display: none;
-}
-
-#tag-7 .slick{
-  display: none;
-}*/
