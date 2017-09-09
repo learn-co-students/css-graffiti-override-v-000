@@ -1,1 +1,37 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall div#tag-2 {
+  display: none;
+}
+
+/* This is what I have to override: div#wall #tag-3.slick */
+
+/*div#wall div[class="slick wicked"]*/
+body div#wall #tag-3[class="slick wicked"] {
+  display:none;
+}
+
+#wall div[class="parent"] #tag-4 {
+  display:none;
+}
+
+/* What I have to override: div#wall .parent #tag-5.slick  */
+
+body div#wall .parent #tag-5.slick {
+  display: none;
+}
+
+/* To override: div#wall div.parent div:last-child div#tag-6  */
+body div#wall div.parent div:last-child div#tag-6 {
+  display:none;
+}
+
+/* to override: body div#wall div.parent div > #tag-7.slick */
+
+body div#wall div.parent div div#tag-7.slick {
+  display: none;
+}
