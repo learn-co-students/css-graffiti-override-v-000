@@ -1,1 +1,16 @@
 /* write your override styles here */
+
+#wall div {
+  display: none;
+}
+
+
+/* Note to self : Needed to include the "body" for the two below because it added an additional level of "specificity" in regards to the location of the below -- used the "Smashing Magazines What you Need to Know About CSS Specificity" link to figure it out*/
+
+body #wall #tag-2 {
+  display: none;
+}
+
+body div#wall #tag-3.wicked {
+  display: none;
+}
