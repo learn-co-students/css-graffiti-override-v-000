@@ -7,3 +7,11 @@
 #wall .tag-1 #tag-2 {
   display: none; 
 }
+
+#wall .tag-1 #tag-3 {
+  display: none; 
+}
+
+body div#wall #tag-3.slick {
+  display: none; 
+}
