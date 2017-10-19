@@ -4,7 +4,7 @@
  display: none; 
 }
 
-div#wall div:nth-child(2) #tag-2 {
+body #wall #tag-2 {
   display: none; 
 }
 
