@@ -1,1 +1,19 @@
-/* write your override styles here */
+/*passing tag 1*/
+#wall .tag-1 {
+  display:none;
+  }/* write your override styles here */
+
+/*passing tag 2*/
+html body div#wall #tag-2 {
+  display:none;
+}
+
+/*passing tag 4*/
+#wall .parent {
+  display:none;
+}
+
+/*tag 3 */
+div#wall #tag-3.slick.wicked {
+  display:none;
+}
