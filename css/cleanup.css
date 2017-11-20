@@ -1,1 +1,61 @@
-/* write your override styles here */
+body {
+  background: black url(../images/sketch.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#wall,.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7{
+width: 980px;
+height: 622px;
+}
+
+.tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  }
+
+#wall {
+  position: relative;
+  margin: 40px auto;
+  background: url(../images/wall.jpg) no-repeat center;
+  -moz-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  -webkit-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  border: 15px solid white;
+}
+
+.tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 2;
+}
+
+#tag-2 {
+  background: url(../images/tag-2.png) no-repeat;
+  z-index: 6;
+}
+
+#tag-3 {
+  background: url(../images/tag-3.png) no-repeat;
+  z-index: 3;
+}
+
+#tag-4 {
+  background: url(../images/tag-4.png) no-repeat;
+  z-index: 4;
+}
+
+ #tag-5 {
+  background: url(../images/tag-5.png) no-repeat;
+  z-index: 5;
+}
+
+#tag-6 {
+  background: url(../images/tag-6.png) no-repeat;
+  z-index: 1;
+}
+
+#tag-7 {
+  background: url(../images/tag-7.png) no-repeat;
+  z-index: 7;
+}
