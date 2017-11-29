@@ -27,3 +27,15 @@ body #wall .parent #tag-4 {
 body div#wall div.parent div#tag-5.slick {
     display: none;
 }
+
+/* tag-6 */
+
+body div#wall div.parent div:last-child div#tag-6 {
+    display: none;
+}
+
+/* tag-7 */
+
+body div#wall div.parent div:first-child div#tag-7.slick {
+    display: none;
+}
