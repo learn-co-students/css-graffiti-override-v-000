@@ -1,1 +1,36 @@
-/* write your override styles here */
+/* Cleaning up these streets and keeping them graffiti free */
+
+/* tag-1 */
+#wall .tag-1 {
+	display: none;
+}
+
+/* tag-2 */
+div#wall #tag-2 {
+	display: none;
+}
+
+/* tag-3 */
+#wall #tag-2 + #tag-3 {
+	display: none;
+}
+
+/* tag-4 */
+#wall .parent #tag-4 {
+	display: none;
+}
+
+/* tag-5 */
+#wall .parent + div.parent div#tag-5.slick {
+	display: none;
+}
+
+/* tag-6 */
+html body div#wall div.parent div:last-child div#tag-6 {
+	display: none;
+}
+
+/* tag-7 */
+html body div#wall div.parent + div.parent div > #tag-7.slick {
+	display: none;
+}
