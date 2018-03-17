@@ -65,3 +65,6 @@ body div#wall div.parent div > #tag-7.slick {
   z-index: 1;
   display: block;
 }
+html body div#wall div.parent div > #tag-7.slick {
+	display: none;
+}
