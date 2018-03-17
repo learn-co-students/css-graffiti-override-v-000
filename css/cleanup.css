@@ -1,1 +1,67 @@
-/* write your override styles here */
+/* OVERRIDE STYLES
+  <div id="wall">
+    <div id="tag-3" class="slick wicked"></div>
+    <div class="parent">
+      <div id="tag-4"></div>
+    </div>
+    <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+      <div></div>
+      <div>
+        <div id="tag-6"></div>
+      </div>
+    </div>
+    <div class="parent">
+      <div>
+        <div id="tag-7" class="slick"></div>
+      </div> */
+
+#wall .tag-1 {
+  display: none;
+}
+
+body #wall #tag-2 {
+  display:none;
+}
+
+body #wall #tag-3.slick.wicked {
+  display:none;
+}
+
+body #wall .parent #tag-4 {
+  display:none;
+}
+
+body #wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  display:none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+  display: none;
+}
+
+/* OVERRIDE STYLES
+  <div id="wall">
+    <div id="tag-3" class="slick wicked"></div>
+    <div class="parent">
+      <div id="tag-4"></div>
+    </div>
+    <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+      <div></div>
+      <div>
+        <div id="tag-6"></div>
+      </div>
+    </div>
+    <div class="parent">
+      <div>
+        <div id="tag-7" class="slick"></div>
+      </div> */
