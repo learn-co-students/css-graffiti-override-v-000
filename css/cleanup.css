@@ -1,1 +1,21 @@
 /* write your override styles here */
+#wall .tag-1{
+	display:none;
+}
+#wall #tag-2 {
+   display: none;
+ }
+#wall #tag-3.slick.wicked{ /*no space between tag-3 and .slick.wicked coz this class inside tag-3 */
+	display:none;
+}
+#wall .parent div#tag-4{
+	display:none;
+} 
+/*#wall .parent #tag-5.slick{
+	display:none;
+}*/
+
+#wall .parent~div{   /*removed tag-5,6,7*/
+	display:none;
+} 
+
