@@ -1,1 +1,36 @@
 /* write your override styles here */
+
+/* Good 1 */
+#wall .tag-1 {
+  display: none;
+}
+
+/* Good 2 */
+div#wall #tag-2  {
+  display: none;
+}
+
+/* Good 3 */
+#wall #tag-3.slick.wicked {
+  display: none;
+}
+
+/* Good 4 */
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/* Good 5 */
+div#wall div.parent  #tag-5.slick {
+  display: none;
+}
+
+/* Good 6 */
+#wall div.parent > div:empty + div:nth-child(2) #tag-6 {
+  display: none;
+}
+
+/* Good 7 */
+div#wall div.parent:last-of-type div > #tag-7.slick {
+  display:  none;
+}
