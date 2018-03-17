@@ -1,1 +1,24 @@
-/* write your override styles here */
+/* write your override styles
+here id is # class is "." */
+
+
+#wall .tag-1{
+  display: none;
+}
+
+div#wall #tag-2{
+  display: none;
+}
+
+div#wall #tag-3 .slick {
+  display: none;
+}
+
+div#wall #tag-4 {
+  display: none;
+}
+
+div.parent{
+  display: none;
+}
+
