@@ -1,1 +1,41 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall div#tag-2 {
+  display: none;
+}
+
+div#wall div#tag-3.slick{
+  display: none;
+}
+
+/* takes out all the background images:
+#wall div {
+  display: none;
+} */
+
+#wall div.parent div#tag-4 {
+  display: none;
+}
+
+#wall div.parent div#tag-5.slick {
+  display: none;
+}
+
+/* doesn't work */
+div#wall div.parent > #tag-6 {
+  display: none;
+}
+
+/* doesn't work */
+body div #wall div.parent div:first-child > div#tag-7.slick {
+  display: none;
+}
+
+/* I think this is cheating but it takes out 5, 6, & 7*/
+#wall div.parent div {
+  display: none; 
+} 
