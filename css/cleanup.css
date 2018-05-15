@@ -1,1 +1,11 @@
 /* write your override styles here */
+#wall .tag-1,
+body #wall #tag-2,
+#wall #tag-3.slick.wicked,
+div#wall div.parent div#tag-4,
+div#wall div.parent div#tag-5.slick,
+div#wall div.parent div + div:last-child div#tag-6,
+div#wall div.parent div:first-child div#tag-7.slick{
+  background: none;
+}
+/*div[id^="tag"]*/
