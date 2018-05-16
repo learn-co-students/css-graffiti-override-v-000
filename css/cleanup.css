@@ -1,1 +1,13 @@
 /* write your override styles here */
+
+#wall .tag-1, #wall #tag-2, #wall #tag-3{
+  display: none;
+}
+
+#wall .parent #tag-4, #wall .parent #tag-5, #wall .parent #tag-6 {
+  display: none;
+}
+
+#wall .parent .slick {
+  display: none;
+}
