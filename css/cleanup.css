@@ -8,22 +8,26 @@
   display: none;
 }
 
-div#wall #tag-3 {
+div#wall #tag-3.slick-wicked {
   display: none;
 }
 
-.div {
+#wall .parent #tag-4 {
   display: none;
 }
 
-div.parent {
+div#wall div.parent #stag-5.slick {
   display: none;
 }
 
-.div-wall {
+body div#wall div.parent div:last-child div#tag-6 {
   display: none;
 }
 
-.div class="parent" {
+div#wall div.parent div:first-child > div#tag-7.slick {
   display: none;
+}
+
+div class {
+  display: none
 }
