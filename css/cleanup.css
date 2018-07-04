@@ -1,1 +1,4 @@
 /* write your override styles here */
+div.tag-1, #wall div#tag-2, div#wall div#tag-3.slick.wicked, div#wall div.parent div#tag-4, div#wall div.parent div#tag-5.slick, html body div#wall div.parent div:last-child div#tag-6, html body div#wall div.parent div div#tag-7.slick {
+  display: none;
+}
