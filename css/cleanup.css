@@ -8,8 +8,23 @@
   display: none;
 }
 
-#wall .slick {
+#wall .wicked {
   display: none;
 }
 
+.parent #tag-4 {
+  display: none;
+}
+
+.parent .slick {
+  display: none;
+}
+
+.parent div #tag-6 {
+  display: none;
+}
+
+.parent div .slick {
+  display: none;
+}
 
