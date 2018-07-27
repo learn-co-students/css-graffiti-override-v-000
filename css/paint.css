@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @dmcgrann Sign out
+9
+0 1,335 learn-co-students/css-graffiti-override-v-000
+ Code  Issues 0  Pull requests 1,365  Projects 0  Wiki  Insights
+css-graffiti-override-v-000/css/paint.css
+9b6095f  on May 23, 2014
+@jongrover jongrover solved
+     
+68 lines (58 sloc)  1.38 KB
 body {
   background: black url(../images/sketch.jpg) no-repeat center;
   background-size: cover;
@@ -12,6 +29,8 @@ body {
   -moz-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
   -webkit-box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
   box-shadow: 15px 15px 47px lime, -15px -15px 47px aqua;
+  border: 15px solid white;
+  border-bottom: 60px solid white;
 }
 
 .tag-1, #tag-2, #tag-3, #tag-4, #tag-5, #tag-6, #tag-7 {
@@ -34,7 +53,7 @@ body {
   display: block;
 }
 
-#wall #tag-3.slick {
+div#wall #tag-3.slick {
   background: url(../images/tag-3.png) no-repeat;
   z-index: 5;
   display: block;
@@ -46,19 +65,19 @@ body {
   display: block;
 }
 
-#wall #tag-5.slick {
+div#wall .parent #tag-5.slick {
   background: url(../images/tag-5.png) no-repeat;
   z-index: 3;
   display: block;
 }
 
-#wall .parent :last-child #tag-6 {
+div#wall div.parent div:last-child div#tag-6 {
   background: url(../images/tag-6.png) no-repeat;
   z-index: 2;
   display: block;
 }
 
-#wall div.parent div > #tag-7.slick {
+body div#wall div.parent div > #tag-7.slick {
   background: url(../images/tag-7.png) no-repeat;
   z-index: 1;
   display: block;
