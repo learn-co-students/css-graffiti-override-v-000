@@ -1,3 +1,20 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ @dmcgrann Sign out
+9
+0 1,335 learn-co-students/css-graffiti-override-v-000
+ Code  Issues 0  Pull requests 1,365  Projects 0  Wiki  Insights
+css-graffiti-override-v-000/css/paint.css
+9b6095f  on May 23, 2014
+@jongrover jongrover solved
+     
+68 lines (58 sloc)  1.38 KB
 body {
   background: black url(../images/sketch.jpg) no-repeat center;
   background-size: cover;
