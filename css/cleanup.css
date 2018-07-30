@@ -1,1 +1,27 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall div#tag-2 {
+  display: none;
+}
+
+
+#wall div#tag-2 + #tag-3 {
+  display: none;
+}
+
+#wall div#tag-4 {
+  display: none;
+}
+
+div#wall div.parent #tag-5.slick {
+  display: none;
+}
+
+/* get rid of the last two with immediate children selector */
+#wall div.parent > div {
+  display: none;
+}
