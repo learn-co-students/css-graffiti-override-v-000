@@ -1,1 +1,14 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+} /* tag 1 inside of wall is more specific so overrides*/
+#wall div#tag-2 {display: none;}
+div#wall #tag-3.slick.wicked {display: none;}
+#wall div#tag-4 {display: none;}
+div#wall div.parent div#tag-5.slick {display: none;}
+body div#wall div.parent div:last-child div#tag-6 {display: none;} /*here needed to copy last-child from code we're trying override even though it wasn't in console and add body for extra specificity*/
+html body div#wall div.parent div#tag-7.slick {display: none;} /*here needed extra specificity of html selecotr*/
+/*
+#tag-5 + div#wall div.parent div:last-child #tag-6 {display: none;}
+#tag-6 + body div#wall div.parent div > #tag-7 .slick {display: none;}
+*/
