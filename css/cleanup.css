@@ -16,7 +16,7 @@ div#wall .parent #tag-4 {
   display: none;
 }
 
-body div#wall .parent #tag-5.slick {
+div#wall div.parent #tag-5.slick {
   display: none;
 }
 
@@ -24,6 +24,6 @@ body div#wall div.parent div:last-child div#tag-6 {
   display: none;
 }
 
-html body div#wall div.parent div > #tag-7.slick {
+body div#wall div.parent div:first-child > #tag-7.slick {
   display: none;
 }
