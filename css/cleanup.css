@@ -1,1 +1,32 @@
 /* write your override styles here */
+
+/*tag 1 removal*/
+#wall .tag-1 {
+  display: none;
+}
+
+/*tag 2 removal*/
+#wall div#tag-2 {
+  display: none;
+}
+
+/*tag 3 removal*/
+div#wall div#tag-3.slick {
+    display:none
+}
+
+/*tag 4 removal*/
+div#wall div.parent #tag-4 {
+    display: none
+}
+
+
+/*tag 5 removal*/
+ div#wall div.parent div#tag-5.slick {
+     display:none
+ }
+
+/* A joker selector that get rid of tags 6 and 7 with one command
+ div#wall div.parent + div {
+ display:none
+} */
