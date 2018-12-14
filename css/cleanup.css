@@ -30,3 +30,13 @@ div#wall div.parent #tag-4 {
  div#wall div.parent + div {
  display:none
 } */
+
+
+/* The correct way to do it is below: 
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div:first-child > div#tag-7.slick {
+  display: none;
+} */
