@@ -1,1 +1,10 @@
 /* write your override styles here */
+
+
+/* div.tag-1, #wall div#tag-2, #wall #tag-3.slick.wicked, #wall .parent #tag-4, #wall div.parent div#tag-5.slick, div#wall div.parent ~ div {
+  display: none;
+} */
+
+div.tag-1, #wall div#tag-2, #wall #tag-3.slick.wicked, #wall .parent #tag-4, #wall div.parent div#tag-5.slick, .parent ~ div {
+  display: none;
+}
