@@ -14,29 +14,42 @@ div#wall#tag-3.slick.wicked{
 /* This is HTML from site for tag 3:    <div id="tag-3" class="slick wicked"></div>*/
 
 
-
-
-
-
-#tag-4{
+#wall .parent#tag-4{
   display: none;
-
-}
-<div class="parent">
+/* Here is HTML for tag 4. It is class parent so use a .    <div class="parent">
       <div id="tag-4"></div>
-    </div>
-<div id="tag-4"></div>
+    </div> */
+}
 
 
 
 #tag-5{
   display: none;
+/* Here is HTML for tag 5. It's a parent.     <div class="parent">
+      <div id="tag-5" class="slick"></div>
+    </div>
+    <div class="parent">
+          <div></div>
+          <div>
+            <div id="tag-6"></div>
+          </div>
+        </div>
+
+
+        <div class="parent">
+              <div id="tag-5" class="slick"></div>
+            </div>
+
+
+
+<div id="tag-5" class="slick"></div>*/
+
 
 }
 
 #tag-6{
   display: none;
-
+/* This is HTML for tag 6       <div id="tag-6"></div>  */
 }
 
 #tag-7{
