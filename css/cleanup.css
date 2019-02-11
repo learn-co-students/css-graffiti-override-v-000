@@ -3,21 +3,15 @@
   display: none;
 }
 
-#tag-2 {
+#wall div#tag-2 {
   display: none;
-
 }
-<div id="tag-2"></div>
+/* This is HTML from site for tag 2:     <div id="tag-2"></div> */
 
-
-
-
-
-#tag-3{
+div#wall#tag-3.slick.wicked{
   display: none;
-
 }
-<div id="tag-3" class="slick wicked"></div>
+/* This is HTML from site for tag 3:    <div id="tag-3" class="slick wicked"></div>*/
 
 
 
@@ -47,5 +41,5 @@
 
 #tag-7{
   display: none;
-  
+
 }
