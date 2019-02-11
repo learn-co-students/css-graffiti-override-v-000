@@ -4,30 +4,34 @@
 }
 
 #tag-2 {
+  display: none;
 position: absolute;
 top: 0;
 left: 0;
 width: 980 px;
 height: 622px;
 }
+<div id="tag-2"></div>
 
-#tag-2{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 980 px;
-  height: 622px;
-}
+
+
+
 
 #tag-3{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
   width: 980 px;
   height: 622px;
 }
+<div id="tag-3" class="slick wicked"></div>
+
+
+
 
 #tag-4{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -35,7 +39,12 @@ height: 622px;
   height: 622px;
 }
 
+
+
+
+
 #tag-5{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -44,6 +53,7 @@ height: 622px;
 }
 
 #tag-6{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -52,6 +62,7 @@ height: 622px;
 }
 
 #tag-7{
+  display: none;
   position: absolute;
   top: 0;
   left: 0;
