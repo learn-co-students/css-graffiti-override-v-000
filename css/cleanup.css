@@ -1,1 +1,60 @@
 /* write your override styles here */
+#wall .tag-1 {
+  display: none;
+}
+
+#tag-2 {
+position: absolute;
+top: 0;
+left: 0;
+width: 980 px;
+height: 622px;
+}
+
+#tag-2{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
+
+#tag-3{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
+
+#tag-4{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
+
+#tag-5{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
+
+#tag-6{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
+
+#tag-7{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 980 px;
+  height: 622px;
+}
