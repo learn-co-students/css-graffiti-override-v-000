@@ -17,15 +17,17 @@ div#wall #tag-3.slick.wicked {
 
 #wall .parent#tag-4 {
   display: none;
+}
 /* Here is HTML for tag 4. It is class parent so use a .    <div class="parent">
       <div id="tag-4"></div>
-    </div> */
-}
+    </div>*/
+
 
 
 
 div#wall div.parent#tag-5.slick {
   display: none;
+}
 /* Here is HTML for tag 5. It's a parent.     <div class="parent">
       <div id="tag-5" class="slick"></div>
     </div>
@@ -34,18 +36,20 @@ div#wall div.parent#tag-5.slick {
           <div>
               <div id="tag-5" class="slick"></div>
 <div id="tag-5" class="slick"></div>*/
-}
 
 
-body div#wall div.parent div:last-child div#tag-6 {
+
+ body div#wall div.parent div:last-child div#tag-6 {
   display: none;
-/* This is HTML for tag 6       <div id="tag-6"></div>  */
 }
+/* This is HTML for tag 6       <div id="tag-6"></div>  */
+
 
 
 
 body div #wall div.parent div:first-child > div#tag-7.slick {
   display: none;
+}
 /* This is HTML code for tag 7       <div class="parent">
       <div>
         <div id="tag-7" class="slick"></div>
@@ -54,4 +58,3 @@ body div #wall div.parent div:first-child > div#tag-7.slick {
     </div>
 <div id="tag-7" class="slick"></div>
      */
-}
