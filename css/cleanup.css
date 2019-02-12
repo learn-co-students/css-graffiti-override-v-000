@@ -23,7 +23,7 @@ div#wall #tag-3.slick.wicked {
     </div>*/
 
 
-div#wall div.parent#tag-5.slick {
+div#wall div.parent #tag-5.slick {
   display: none;
 }
 /* Here is HTML for tag 5. It's a parent.     <div class="parent">
@@ -33,7 +33,11 @@ div#wall div.parent#tag-5.slick {
           <div></div>
           <div>
               <div id="tag-5" class="slick"></div>
-<div id="tag-5" class="slick"></div>*/
+<div id="tag-5" class="slick"></div>
+
+<div id="tag-5" class="slick"></div>
+
+*/
 
 
  body div#wall div.parent div:last-child div#tag-6 {
