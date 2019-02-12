@@ -15,7 +15,7 @@ div#wall #tag-3.slick.wicked {
 /* This is HTML from site for tag 3:    <div id="tag-3" class="slick wicked"></div>*/
 
 
-#wall .parent#tag-4 {
+#wall .parent #tag-4 {
   display: none;
 }
 /* Here is HTML for tag 4. It is class parent so use a .    <div class="parent">
