@@ -46,7 +46,7 @@ div#wall div.parent #tag-5.slick {
 /* This is HTML for tag 6       <div id="tag-6"></div>  */
 
 
-body div #wall div.parent div:first-child > div#tag-7.slick {
+body div#wall div.parent div:first-child > div#tag-7.slick {
   display: none;
 }
 /* This is HTML code for tag 7       <div class="parent">
