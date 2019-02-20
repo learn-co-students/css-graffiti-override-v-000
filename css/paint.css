@@ -24,7 +24,7 @@ body {
   height: 622px;
 }
 
-.tag-1 {
+ #wall .tag-1 {
   background: url(../images/tag-1.png) no-repeat;
   z-index: 7;
   display: block;
@@ -36,7 +36,7 @@ body {
   display: block;
 }
 
-div#wall #tag-3.slick {
+#wall #tag-3.slick {
   background: url(../images/tag-3.png) no-repeat;
   z-index: 5;
   display: block;
@@ -48,13 +48,13 @@ div#wall #tag-3.slick {
   display: block;
 }
 
-div#wall .parent #tag-5.slick {
+#wall .parent #tag-5.slick {
   background: url(../images/tag-5.png) no-repeat;
   z-index: 3;
   display: block;
 }
 
-div#wall div.parent div:last-child div#tag-6 {
+#wall div.parent div:last-child div#tag-6 {
   background: url(../images/tag-6.png) no-repeat;
   z-index: 2;
   display: block;
