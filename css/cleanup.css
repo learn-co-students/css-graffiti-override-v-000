@@ -4,7 +4,28 @@
   display: none;
 }
 
-#wall #tag-2 { /* Or use #tag-2:empty (higher specificity) */
+#wall div#tag-2 { /* Or use #tag-2:empty (higher specificity) */
   display: none;
 }
 
+div#wall div#tag-3.slick { 
+  /* I could use #tag-3.slick.wicked, but adjoining classes don't work for IE6 and older browsers. */
+    display: none;
+}
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+div#wall .parent + .parent #tag-5.slick {
+  /* Alternatively, div#wall .parent div#tag-5.slick */
+    display: none;
+}
+
+div#wall div.parent:nth-last-child(2) div:last-child div#tag-6 {
+    display: none;
+}
+
+div#wall div.parent div > #tag-7.slick:only-child { /* There are other ways, too! */
+    display: none;
+}
