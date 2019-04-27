@@ -1,1 +1,50 @@
 /* write your override styles here */
+.tag-1 {
+  background: url(../images/tag-1.png) no-repeat;
+  z-index: 7;
+  display: block;
+}
+
+#wall .tag-1 {
+  display: none;
+}
+<ul id="tag">
+   <li class="favorite">tag-2</li>
+   <li>tag-3.png</li>
+   <li>tag-4.png</li>
+   <li>tag-5.png</li>
+   <li>tag-6.png</li>
+   <li>tag-7.png</li>
+   <li>tag-8.png</li>
+
+</ul>
+
+/*
+#wall .tag-1 {
+ display: none;
+}
+
+#wall div#tag-2 {
+ display: none;
+}
+
+div#wall #tag-3.slick.wicked {
+ display: none;
+}
+
+#wall .parent #tag-4 {
+ display: none;
+}
+
+div#wall div.parent #tag-5.slick {
+ display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+body div#wall div.parent div:first-child > div#tag-7.slick {
+ display: none;
+}
+*/
