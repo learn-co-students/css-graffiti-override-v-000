@@ -1,1 +1,5 @@
-/* write your override styles here */
+/* write your override styles here */{
+
+.tag-1 {
+  display: none;
+}
