@@ -1,0 +1,155 @@
+[33mcommit f73f85f31faa7fdd29cec7f4a3ed516130134683[m[33m ([m[1;36mHEAD -> [m[1;32mmy-branch-for-graffiti-lab[m[33m, [m[1;32mmaster[m[33m)[m
+Author: jpkim921 <jpkim921@gmail.com>
+Date:   Thu Dec 28 09:20:38 2017 -0500
+
+    changed cleanup.css for more specificity
+
+[33mcommit 6bbb91e1d3111e7f112942eebc711a5f78efcdff[m
+Author: AnnJohn <ann@flatironschool.com>
+Date:   Fri Jun 3 17:24:36 2016 -0400
+
+    Update README.md
+
+[33mcommit 911b521c09944d3cb2a947bf23238a2a9a29f7bd[m
+Merge: 14ce181 5ea52e2
+Author: AnnJohn <ann@flatironschool.com>
+Date:   Thu Jun 2 16:51:33 2016 -0400
+
+    Merge pull request #3 from becky000/becky000-1463164828
+    
+    correct spelling
+
+[33mcommit 14ce181cbf147433d7d95f6f58b6d61ba551c63e[m
+Merge: 7494e62 b80cdcc
+Author: AnnJohn <ann@flatironschool.com>
+Date:   Thu Jun 2 16:51:02 2016 -0400
+
+    Merge pull request #4 from kode-tiki/kode-tiki-1463520367
+    
+    Updated README.md
+
+[33mcommit 7494e627516361fc0ec73a7c0c43728da9a807c2[m
+Merge: 3b68a1d 4d55bfb
+Author: AnnJohn <ann@flatironschool.com>
+Date:   Thu Jun 2 16:50:36 2016 -0400
+
+    Merge pull request #5 from thekayness/thekayness-1464109983
+    
+    fixed typo "declarartion"
+
+[33mcommit 4d55bfb9911f9a1546072db884c34a67440634ad[m
+Author: Kathleen <kayjsmyth@gmail.com>
+Date:   Tue May 24 13:13:04 2016 -0400
+
+    fixed typo "declarartion"
+
+[33mcommit b80cdccf49989a634f7daf0206c073c1f19dfa88[m
+Author: Michael Stewart <upp_mike@yahoo.com>
+Date:   Tue May 17 14:26:08 2016 -0700
+
+    Updated README.md
+
+[33mcommit 5ea52e24012f1ad76fa2cc82f728d34f5079ac6e[m
+Author: Rebecca Sherman <beckysherman000@gmail.com>
+Date:   Fri May 13 14:40:29 2016 -0400
+
+    correct spelling
+
+[33mcommit 3b68a1d551ce8d8702973a5ad74db845e18ab16a[m
+Author: jongrover <hello@jonathangrover.com>
+Date:   Fri Mar 18 15:41:37 2016 -0400
+
+    Revert "add new tests"
+
+[33mcommit 7e51a3035691fc506d814c7d653b06a7a8a22255[m
+Author: jongrover <hello@jonathangrover.com>
+Date:   Tue Mar 15 19:54:02 2016 -0400
+
+    add new tests
+
+[33mcommit 71bb42a127ce7dcf269063687636a12741791538[m
+Author: AnnJohn <ann@flatironschool.com>
+Date:   Mon Mar 14 15:29:43 2016 -0400
+
+    typos
+
+[33mcommit 05d8f0809d9f46a39a68364c3061c2eb8bcbf904[m
+Author: Adam Jonas <jonas@flatironschool.com>
+Date:   Fri Jan 29 11:08:06 2016 -0500
+
+    optimize learn link [processing skip]
+
+[33mcommit ac3a4c47ac2d0f36910a6962b260bf79356407b1[m
+Author: vicfriedman <victoria.m.friedman@gmail.com>
+Date:   Fri Dec 18 17:06:36 2015 -0500
+
+    [processing skip]
+
+[33mcommit e6f019eca1c68597ec42c25e2f7a6f7697af90ca[m
+Author: Adam Jonas <jonas@flatironschool.com>
+Date:   Wed Dec 2 12:50:28 2015 -0500
+
+    add learn link [processing skip]
+
+[33mcommit 0dfd2a774e79682fdb85ef5519663c7e97ad32c5[m
+Merge: dce08b9 9023727
+Author: Deniz Unat <deniznida@users.noreply.github.com>
+Date:   Tue Dec 1 16:44:02 2015 -0500
+
+    Merge pull request #1 from eaud/eaud-1448819647
+    
+    Updated README.md
+
+[33mcommit 9023727ccf10e4513f63e8e0bc89c73438bc3b56[m
+Author: eaud <derek.s.mueller@gmail.com>
+Date:   Sun Nov 29 12:54:08 2015 -0500
+
+    Updated README.md
+
+[33mcommit dce08b9f34e320e129802a6b949eeacd97e99d51[m
+Author: The Learn Team <labsmailertest@gmail.com>
+Date:   Thu Aug 6 10:10:19 2015 -0400
+
+    Add content license
+
+[33mcommit 3ef68591eaab52c988929f2ddb3f7b5e2890a1c3[m
+Author: Adam Jonas <jonas@flatironschool.com>
+Date:   Fri Jul 31 12:28:19 2015 -0400
+
+    typo found by @rolandobrown
+
+[33mcommit b497d6029bde08481542c0451c187f6cb9147e32[m
+Author: The Learn Team <labsmailertest@gmail.com>
+Date:   Wed Jul 29 10:44:47 2015 -0400
+
+    remove front matter
+
+[33mcommit c759309a0c1dc66e7ee30b6f4bada0c3f90d8f84[m
+Author: Beyonce Jabroni <labs+test-bot@flatironschool.com>
+Date:   Mon Mar 16 09:33:12 2015 -0400
+
+    dot learn added by fs-lms-bot
+
+[33mcommit 2d0adabc4237c9d0b578571cc2a848c5db67aa14[m
+Author: Jonathan Grover <hello@jonathangrover.com>
+Date:   Fri Jul 18 20:35:47 2014 -0400
+
+    Update README.md
+
+[33mcommit ebb15a04fcf0cf6072765c43625524df93f8114f[m
+Author: jongrover <hello@jonathangrover.com>
+Date:   Fri May 23 13:46:22 2014 -0400
+
+    update readme
+
+[33mcommit 66ff344068d00594936fa576940b6237b7e94c6a[m
+Author: jongrover <hello@jonathangrover.com>
+Date:   Fri May 23 12:46:06 2014 -0400
+
+    remove solution
+
+[33mcommit 9b6095f9b2d409767f99a10eb5f817bc1d8886ea[m
+Author: jongrover <hello@jonathangrover.com>
+Date:   Fri May 23 12:37:19 2014 -0400
+
+    solved
