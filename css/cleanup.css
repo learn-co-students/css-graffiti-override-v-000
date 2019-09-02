@@ -1,1 +1,56 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall .tag-1 + #tag-2 {
+  display: none;
+}
+
+/** This selects a div with an ID of wall,
+that is the parent of an element with the id of tag-3
+that also has the class of slick
+that also has the class of wicked **/
+div#wall #tag-3.slick.wicked{
+  display: none;
+}
+
+/** This selects an elment with the id of wall,
+then selects the descendent of that element with the class of parent,
+then selects the descendent of that element with the id of tag-4 **/
+
+#wall .parent #tag-4 {
+  display: none;
+}
+
+/** this selects a div with an id of wall,
+then it selects .parent + .parent, which means it selects a sibling of a .parent element that also has the classs. parent,
+then it selects a descendent of that selector that has both an id of tag-5 and a class of slick
+that's what this does: #tag-5.slick **/
+
+div#wall .parent + .parent #tag-5.slick {
+  display: none;
+}
+
+/**
+this selects a div with an ID of Wall,
+then selects a div with a class of parent,
+then selects a div that is both the last-child and also the sibling of another div,
+then selects a div with an ID of tag-6
+**/
+
+div#wall div.parent div + div:last-child div#tag-6 {
+  display: none;
+}
+
+/**
+this selects a div with an ID of wall,
+then selects a div with a class of parent,
+then selects a div which is the first child of the div above and this div is also the parent of another div with the ID of tag-7
+the element with the ID of tag-7 also has a class of .slick
+**/
+
+body div#wall div.parent div:first-child > #tag-7.slick {
+  display: none;
+}
