@@ -5,7 +5,7 @@ body {
 
 #wall {
   position: relative;
-  margin: 40px auto;
+  margin: 41px auto;
   width: 980px;
   height: 622px;
   background: url(../images/wall.jpg) no-repeat center;
