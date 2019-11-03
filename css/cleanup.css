@@ -1,1 +1,8 @@
 /* write your override styles here */
+#wall div {
+display: none;
+}
+
+#wall #tag-3.slick {
+  display: none;
+}
