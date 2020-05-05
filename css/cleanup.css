@@ -1,1 +1,21 @@
+#wall .tag-1 {
+  display: none;
+}
+
+#wall .tag-2 {
+  display: none;
+}
+
+#slick_wickid {
+  display: none;
+}
+
+#parent .tag-4 {
+  display: none;
+}
+
+#slick {
+  display: none;
+}
+
 /* write your override styles here */
