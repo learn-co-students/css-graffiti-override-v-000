@@ -1,1 +1,39 @@
 /* write your override styles here */
+#wall .tag-1 {/*Tag 1 Done*/
+  display: none;
+}
+
+div#wall  #tag-2 {/*Tag 2 Done*/
+  display: none;
+}
+
+div#wall #tag-3.slick.wicked{/*Tag 3 Done*/
+  display: none;
+}
+
+#wall .parent #tag-4 {/*Tag 4 Done*/
+  display: none;
+}
+
+div#wall div.parent #tag-5.slick {/*Tag 5 Done*/
+  display: none;
+}
+
+
+
+
+div#wall div.parent div:last-child div#tag-6 {/*Tag 6 Not working*/
+  display: none;
+}
+
+
+
+
+
+body div#wall div.parent div:first-child #tag-7.slick {/*Tag 7 Done*/
+  display: none;
+}
+
+#wall div{/*gets rid of at least tag 6 and 7*/
+  display: none;
+}
