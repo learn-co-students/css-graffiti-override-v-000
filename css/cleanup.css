@@ -1,1 +1,42 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+/* 0,2,1,0 */
+#wall .tag-1 + #tag-2 {
+  display: none;
+}
+
+/* 0,2,1,1
+*/
+div#wall #tag-2 + #tag-3.slick{
+  display: none;
+}
+
+/*0,2,1,0
+*/
+#wall .parent #tag-4{
+  display: none;
+}
+
+/* 0,2,3,1
+*/
+div#wall .parent + .parent #tag-5.slick {
+  display: none;
+}
+
+/*0,1,2,4
+*/
+
+body div#wall div.parent div:last-child div#tag-6 {
+  display: none;
+}
+
+
+/* 0,2,2,4
+*/
+html body div#wall div.parent div > #tag-7.slick {
+  display: none;
+}
