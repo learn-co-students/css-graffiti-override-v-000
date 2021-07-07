@@ -22,6 +22,7 @@ body {
   left: 0;
   width: 980px;
   height: 622px;
+
 }
 
 .tag-1 {
@@ -64,4 +65,25 @@ body div#wall div.parent div > #tag-7.slick {
   background: url(../images/tag-7.png) no-repeat;
   z-index: 1;
   display: block;
+}
+#wall .tag-1 {
+  display: none;
+}
+#wall  #tag-2 {
+  display: none;
+}
+div#wall #tag-3.slick{
+  display: none;
+}
+#wall  #tag-4 {
+  display: none;
+}
+div#wall .parent #tag-5.slick{
+  display: none;
+}
+div#wall div.parent div:last-child div#tag-6{
+  display: none;
+}
+body div#wall div.parent div > #tag-7.slick{
+  display: none;
 }
