@@ -1,1 +1,55 @@
 /* write your override styles here */
+/* import existing code for cleanup */
+/* ids: "wall", "tag-2", "tag-3", "tag-4", "tag-5", "tag-6", "tag-7"
+	classes: "tag-1", "slick wicked", "parent", "slick" */
+#wall .tag-1 {
+    background: url(../images/tag-1.png) no-repeat;
+    z-index: 7;
+    display: none;
+}
+
+div#wall #tag-2 /*spray painting vermin */ {
+    background: url(../images/tag-2.png) no-repeat;
+    z-index: 6;
+    display: none;
+}
+
+div#wall div#tag-3.slick /*gray lettering*/{
+    background: url(../images/tag-3.png) no-repeat;
+    z-index: 5;
+    display: none;
+}
+
+div#wall div#tag-4 /*peace out dude */ {
+    background: url(../images/tag-4.png) no-repeat;
+    z-index: 4;
+    display: none;
+}
+
+div#wall .parent div#tag-5.slick /* dance */ {
+    background: url(../images/tag-5.png) no-repeat;
+    z-index: 3;
+    display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6 /* profile photo pink */ {
+    background: url(../images/tag-6.png) no-repeat;
+    z-index: 2;
+    display: none;
+}
+
+body div#wall div.parent div > div#tag-7.slick /* child balloon */ {
+    background: url(../images/tag-7.png) no-repeat;
+    z-index: 1;
+    display: none;
+}
+
+div {
+    display: block;
+}
+
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
