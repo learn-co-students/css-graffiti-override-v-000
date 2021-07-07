@@ -1,1 +1,47 @@
 /* write your override styles here */
+
+#wall .tag-1 { 
+  /* looks for class="tag-1" within the id="wall" */
+  display: none;
+}
+
+#wall .tag-1+#tag-2 {
+  /* looks for id="tag-2" 
+  which is next to class="tag-1"
+  within id="wall"*/
+  display: none;
+}
+
+div#wall #tag-2+#tag-3.slick {
+  /* look for a class with "slick"
+   after the id="tag-3"
+   which is a sibling to id = "tag-2"
+   which is a descendeant of id="wall"
+   which is a div element */
+  display: none;
+}
+
+#wall .parent>#tag-4 {
+  /*looks for id="tag-4"
+  which is a child of class "parent"
+  which is a descendent of id="wall" */
+  display: none;
+}
+
+body div#wall .parent #tag-5.slick{
+  /*looks for an element with attributes id="tag-5" and class="slick"
+    that is descended from a class="parent"
+    that is descended from an element that is a div element with id="wall"
+    that is descended from a body element */
+  display:none;
+} 
+
+body div#wall div.parent div:last-child div#tag-6{
+  /* simply descended the prior statement from body element */
+  display: none;
+}
+
+body div#wall div.parent div:first-child > #tag-7.slick{
+  /* made reference more specific to first-child*/
+  display:none;
+}
