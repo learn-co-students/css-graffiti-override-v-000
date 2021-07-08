@@ -1,1 +1,28 @@
 /* write your override styles here */
+#wall .tag-1{ /*success*/
+  display: none;
+}
+
+#wall .tag-1 + #tag-2{ /*success*/
+  display: none;
+}
+
+#wall .parent #tag-4{ /*success*/
+  display: none;
+}
+
+div#wall > #tag-3.slick.wicked{ /*success*/
+    display: none;
+}
+
+div#wall > div.parent #tag-5.slick{ /*success*/
+  display: none;
+}
+
+body div#wall div.parent div:last-child div#tag-6{ /*success*/
+  display: none;
+}
+
+body div#wall div.parent div:first-child div#tag-7.slick /*success*/
+  display: none;
+}
