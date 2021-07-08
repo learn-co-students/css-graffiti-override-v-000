@@ -1,1 +1,4 @@
 /* write your override styles here */
+#wall div, #wall div#tag-2, div#wall #tag-3.slick.wicked {
+    display: none;
+} 
